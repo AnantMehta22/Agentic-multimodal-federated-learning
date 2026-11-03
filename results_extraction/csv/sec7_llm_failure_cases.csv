@@ -1,0 +1,3 @@
+client_id,failure_type,failure_analysis
+Client 9 (Benign),False Positive Skip,"High update norm flagged as anomaly due to extreme local Dirichlet skew, though update was honest."
+Client 35 (Malicious),False Negative Keep,Subtle poisoning attack: small-magnitude weight flip did not trigger the cosine similarity threshold.

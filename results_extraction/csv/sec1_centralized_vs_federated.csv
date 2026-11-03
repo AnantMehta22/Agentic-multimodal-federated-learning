@@ -1,0 +1,5 @@
+modality,centralized_acc,federated_acc,accuracy_cost
+image,1.000000,0.999997,0.000003
+text,0.967500,0.320632,0.646868
+audio,1.000000,0.999985,0.000015
+video,1.000000,0.999901,0.000099

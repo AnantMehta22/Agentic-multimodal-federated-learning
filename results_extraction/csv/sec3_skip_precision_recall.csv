@@ -1,0 +1,4 @@
+method,precision,recall,f1_score
+random,0.0000,0.0000,0.0000
+heuristic,0.7500,0.6000,0.6667
+ollama_agent,0.9000,0.9000,0.9000

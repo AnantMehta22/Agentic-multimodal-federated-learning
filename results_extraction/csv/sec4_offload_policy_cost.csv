@@ -1,0 +1,5 @@
+modality,always_local_cost,always_edge_cost,learned_policy_cost
+image,12,25,11
+text,8,20,8
+audio,42,35,28
+video,180,72,58

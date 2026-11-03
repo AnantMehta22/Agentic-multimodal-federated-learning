@@ -1,0 +1,838 @@
+{
+  "tasks_processed": 1,
+  "modality_stats": {
+    "image": {
+      "tasks_count": 0,
+      "avg_accuracy": 0.1,
+      "avg_loss": 2.3
+    },
+    "text": {
+      "tasks_count": 0,
+      "avg_accuracy": 0.25,
+      "avg_loss": 1.3
+    },
+    "audio": {
+      "tasks_count": 0,
+      "avg_accuracy": 0.1,
+      "avg_loss": 2.3
+    },
+    "video": {
+      "tasks_count": 1,
+      "avg_accuracy": 0.2,
+      "avg_loss": 1.6
+    }
+  },
+  "history": [
+    {
+      "task_id": 1,
+      "task_file": "sample_files/security_clip.mp4",
+      "modality": "video",
+      "selected_clients": [
+        40,
+        1,
+        19,
+        30,
+        12,
+        6,
+        15,
+        7,
+        17,
+        44,
+        43,
+        14,
+        34,
+        36,
+        37,
+        39,
+        47,
+        24,
+        48,
+        28,
+        23,
+        20,
+        18,
+        32,
+        29,
+        13
+      ],
+      "offload_decisions": {
+        "40": "local",
+        "1": "edge",
+        "19": "local",
+        "30": "local",
+        "12": "local",
+        "6": "local",
+        "15": "local",
+        "7": "local",
+        "17": "local",
+        "44": "local",
+        "43": "local",
+        "14": "local",
+        "34": "local",
+        "36": "local",
+        "37": "edge",
+        "39": "edge",
+        "47": "edge",
+        "24": "local",
+        "48": "local",
+        "28": "edge",
+        "23": "local",
+        "20": "edge",
+        "18": "local",
+        "32": "edge",
+        "29": "local",
+        "13": "edge"
+      },
+      "decisions_details": {
+        "40": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "1": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "19": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "30": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "12": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "6": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "15": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "7": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "17": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "4": {
+          "skip": true,
+          "reason": "Device thermal throttling"
+        },
+        "44": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "43": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "14": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "34": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "36": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "37": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "39": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "47": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "24": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "42": {
+          "skip": true,
+          "reason": "Device thermal throttling"
+        },
+        "45": {
+          "skip": true,
+          "reason": "Device thermal throttling"
+        },
+        "48": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "28": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "23": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "20": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "22": {
+          "skip": true,
+          "reason": "Device thermal throttling"
+        },
+        "18": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "32": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "29": {
+          "skip": false,
+          "reason": "Optimal condition"
+        },
+        "13": {
+          "skip": false,
+          "reason": "Optimal condition"
+        }
+      }
+    }
+  ],
+  "client_states": {
+    "0": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 0,
+        "device_cpu_ghz": 1.89,
+        "battery_pct": 12.3,
+        "network_latency_ms": 58.6,
+        "privacy_flag": false,
+        "temperature": 70.5
+      },
+      "last_selected_round": 0
+    },
+    "1": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 1,
+        "device_cpu_ghz": 1.95,
+        "battery_pct": 90.3,
+        "network_latency_ms": 22.0,
+        "privacy_flag": false,
+        "temperature": 31.6,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "2": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 2,
+        "device_cpu_ghz": 1.17,
+        "battery_pct": 55.5,
+        "network_latency_ms": 10.2,
+        "privacy_flag": false,
+        "temperature": 65.7
+      },
+      "last_selected_round": 0
+    },
+    "3": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 3,
+        "device_cpu_ghz": 1.73,
+        "battery_pct": 29.8,
+        "network_latency_ms": 119.9,
+        "privacy_flag": false,
+        "temperature": 30.4
+      },
+      "last_selected_round": 0
+    },
+    "4": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 4,
+        "device_cpu_ghz": 2.17,
+        "battery_pct": 72.8,
+        "network_latency_ms": 71.3,
+        "privacy_flag": false,
+        "temperature": 82.6
+      },
+      "last_selected_round": 0
+    },
+    "5": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 5,
+        "device_cpu_ghz": 1.37,
+        "battery_pct": 18.3,
+        "network_latency_ms": 23.9,
+        "privacy_flag": false,
+        "temperature": 63.2
+      },
+      "last_selected_round": 0
+    },
+    "6": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 6,
+        "device_cpu_ghz": 2.17,
+        "battery_pct": 75.7,
+        "network_latency_ms": 109.6,
+        "privacy_flag": false,
+        "temperature": 50.8,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "7": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 7,
+        "device_cpu_ghz": 1.74,
+        "battery_pct": 84.6,
+        "network_latency_ms": 125.6,
+        "privacy_flag": false,
+        "temperature": 61.8,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "8": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 8,
+        "device_cpu_ghz": 2.0,
+        "battery_pct": 14.1,
+        "network_latency_ms": 49.4,
+        "privacy_flag": false,
+        "temperature": 34.4
+      },
+      "last_selected_round": 0
+    },
+    "9": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 9,
+        "device_cpu_ghz": 1.2,
+        "battery_pct": 19.1,
+        "network_latency_ms": 59.2,
+        "privacy_flag": false,
+        "temperature": 50.1
+      },
+      "last_selected_round": 0
+    },
+    "10": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 10,
+        "device_cpu_ghz": 1.43,
+        "battery_pct": 28.9,
+        "network_latency_ms": 57.1,
+        "privacy_flag": false,
+        "temperature": 65.6
+      },
+      "last_selected_round": 0
+    },
+    "11": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 11,
+        "device_cpu_ghz": 1.84,
+        "battery_pct": 25.4,
+        "network_latency_ms": 147.2,
+        "privacy_flag": false,
+        "temperature": 50.9
+      },
+      "last_selected_round": 0
+    },
+    "12": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 12,
+        "device_cpu_ghz": 2.48,
+        "battery_pct": 67.6,
+        "network_latency_ms": 113.6,
+        "privacy_flag": false,
+        "temperature": 76.4,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "13": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 13,
+        "device_cpu_ghz": 2.12,
+        "battery_pct": 30.6,
+        "network_latency_ms": 11.3,
+        "privacy_flag": false,
+        "temperature": 44.7,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "14": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 14,
+        "device_cpu_ghz": 1.16,
+        "battery_pct": 94.9,
+        "network_latency_ms": 175.9,
+        "privacy_flag": false,
+        "temperature": 66.0,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "15": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 15,
+        "device_cpu_ghz": 1.47,
+        "battery_pct": 92.3,
+        "network_latency_ms": 94.5,
+        "privacy_flag": false,
+        "temperature": 43.6,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "16": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 16,
+        "device_cpu_ghz": 1.75,
+        "battery_pct": 33.6,
+        "network_latency_ms": 119.0,
+        "privacy_flag": false,
+        "temperature": 52.0
+      },
+      "last_selected_round": 0
+    },
+    "17": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 17,
+        "device_cpu_ghz": 1.17,
+        "battery_pct": 99.8,
+        "network_latency_ms": 104.4,
+        "privacy_flag": true,
+        "temperature": 32.6,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "18": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 18,
+        "device_cpu_ghz": 0.99,
+        "battery_pct": 66.5,
+        "network_latency_ms": 159.5,
+        "privacy_flag": false,
+        "temperature": 33.5,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "19": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 19,
+        "device_cpu_ghz": 1.45,
+        "battery_pct": 99.7,
+        "network_latency_ms": 108.2,
+        "privacy_flag": false,
+        "temperature": 77.3,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "20": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 20,
+        "device_cpu_ghz": 0.82,
+        "battery_pct": 74.9,
+        "network_latency_ms": 137.9,
+        "privacy_flag": false,
+        "temperature": 44.7,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "21": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 21,
+        "device_cpu_ghz": 1.89,
+        "battery_pct": 20.0,
+        "network_latency_ms": 89.8,
+        "privacy_flag": false,
+        "temperature": 82.5
+      },
+      "last_selected_round": 0
+    },
+    "22": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 22,
+        "device_cpu_ghz": 2.29,
+        "battery_pct": 33.7,
+        "network_latency_ms": 102.6,
+        "privacy_flag": false,
+        "temperature": 80.2
+      },
+      "last_selected_round": 0
+    },
+    "23": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 23,
+        "device_cpu_ghz": 2.28,
+        "battery_pct": 36.9,
+        "network_latency_ms": 129.6,
+        "privacy_flag": false,
+        "temperature": 38.4,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "24": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 24,
+        "device_cpu_ghz": 2.1,
+        "battery_pct": 58.5,
+        "network_latency_ms": 156.8,
+        "privacy_flag": false,
+        "temperature": 30.0,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "25": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 25,
+        "device_cpu_ghz": 1.35,
+        "battery_pct": 11.8,
+        "network_latency_ms": 186.2,
+        "privacy_flag": false,
+        "temperature": 75.7
+      },
+      "last_selected_round": 0
+    },
+    "26": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 26,
+        "device_cpu_ghz": 1.32,
+        "battery_pct": 15.2,
+        "network_latency_ms": 176.2,
+        "privacy_flag": false,
+        "temperature": 34.7
+      },
+      "last_selected_round": 0
+    },
+    "27": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 27,
+        "device_cpu_ghz": 1.63,
+        "battery_pct": 16.2,
+        "network_latency_ms": 153.3,
+        "privacy_flag": false,
+        "temperature": 37.1
+      },
+      "last_selected_round": 0
+    },
+    "28": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 28,
+        "device_cpu_ghz": 1.61,
+        "battery_pct": 59.5,
+        "network_latency_ms": 56.7,
+        "privacy_flag": false,
+        "temperature": 53.3,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "29": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 29,
+        "device_cpu_ghz": 1.16,
+        "battery_pct": 58.5,
+        "network_latency_ms": 147.3,
+        "privacy_flag": false,
+        "temperature": 47.1,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "30": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 30,
+        "device_cpu_ghz": 2.49,
+        "battery_pct": 68.5,
+        "network_latency_ms": 90.4,
+        "privacy_flag": false,
+        "temperature": 36.7,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "31": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 31,
+        "device_cpu_ghz": 1.18,
+        "battery_pct": 40.4,
+        "network_latency_ms": 119.7,
+        "privacy_flag": false,
+        "temperature": 42.1
+      },
+      "last_selected_round": 0
+    },
+    "32": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 32,
+        "device_cpu_ghz": 0.92,
+        "battery_pct": 66.8,
+        "network_latency_ms": 49.6,
+        "privacy_flag": false,
+        "temperature": 77.3,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "33": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 33,
+        "device_cpu_ghz": 0.92,
+        "battery_pct": 31.4,
+        "network_latency_ms": 135.5,
+        "privacy_flag": false,
+        "temperature": 37.3
+      },
+      "last_selected_round": 0
+    },
+    "34": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 34,
+        "device_cpu_ghz": 2.39,
+        "battery_pct": 61.4,
+        "network_latency_ms": 97.2,
+        "privacy_flag": false,
+        "temperature": 74.4,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "35": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 35,
+        "device_cpu_ghz": 1.12,
+        "battery_pct": 18.7,
+        "network_latency_ms": 89.1,
+        "privacy_flag": false,
+        "temperature": 55.7
+      },
+      "last_selected_round": 0
+    },
+    "36": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 36,
+        "device_cpu_ghz": 2.04,
+        "battery_pct": 70.6,
+        "network_latency_ms": 196.9,
+        "privacy_flag": true,
+        "temperature": 52.1,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "37": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 37,
+        "device_cpu_ghz": 1.38,
+        "battery_pct": 87.6,
+        "network_latency_ms": 53.5,
+        "privacy_flag": false,
+        "temperature": 54.7,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "38": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 38,
+        "device_cpu_ghz": 1.52,
+        "battery_pct": 35.1,
+        "network_latency_ms": 53.7,
+        "privacy_flag": false,
+        "temperature": 54.4
+      },
+      "last_selected_round": 0
+    },
+    "39": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 39,
+        "device_cpu_ghz": 2.26,
+        "battery_pct": 59.5,
+        "network_latency_ms": 14.9,
+        "privacy_flag": false,
+        "temperature": 76.0,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "40": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 40,
+        "device_cpu_ghz": 2.45,
+        "battery_pct": 93.4,
+        "network_latency_ms": 170.5,
+        "privacy_flag": false,
+        "temperature": 56.7,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "41": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 41,
+        "device_cpu_ghz": 1.16,
+        "battery_pct": 46.1,
+        "network_latency_ms": 16.4,
+        "privacy_flag": false,
+        "temperature": 84.2
+      },
+      "last_selected_round": 0
+    },
+    "42": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 42,
+        "device_cpu_ghz": 1.25,
+        "battery_pct": 80.6,
+        "network_latency_ms": 93.7,
+        "privacy_flag": false,
+        "temperature": 82.7
+      },
+      "last_selected_round": 0
+    },
+    "43": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 43,
+        "device_cpu_ghz": 2.49,
+        "battery_pct": 60.0,
+        "network_latency_ms": 145.1,
+        "privacy_flag": false,
+        "temperature": 46.3,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "44": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 44,
+        "device_cpu_ghz": 2.45,
+        "battery_pct": 62.1,
+        "network_latency_ms": 110.7,
+        "privacy_flag": false,
+        "temperature": 33.1,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "45": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 45,
+        "device_cpu_ghz": 1.79,
+        "battery_pct": 55.3,
+        "network_latency_ms": 171.3,
+        "privacy_flag": false,
+        "temperature": 82.8
+      },
+      "last_selected_round": 0
+    },
+    "46": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 46,
+        "device_cpu_ghz": 0.94,
+        "battery_pct": 26.7,
+        "network_latency_ms": 121.0,
+        "privacy_flag": false,
+        "temperature": 42.9
+      },
+      "last_selected_round": 0
+    },
+    "47": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 47,
+        "device_cpu_ghz": 1.0,
+        "battery_pct": 90.1,
+        "network_latency_ms": 53.0,
+        "privacy_flag": false,
+        "temperature": 64.1,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "48": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 48,
+        "device_cpu_ghz": 1.51,
+        "battery_pct": 62.5,
+        "network_latency_ms": 106.9,
+        "privacy_flag": false,
+        "temperature": 41.2,
+        "modality": "video"
+      },
+      "last_selected_round": 1
+    },
+    "49": {
+      "modality": "video",
+      "resource_state": {
+        "client_id": 49,
+        "device_cpu_ghz": 2.02,
+        "battery_pct": 31.5,
+        "network_latency_ms": 82.2,
+        "privacy_flag": false,
+        "temperature": 46.5
+      },
+      "last_selected_round": 0
+    }
+  }
+}

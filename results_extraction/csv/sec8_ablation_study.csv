@@ -1,0 +1,5 @@
+ablation_configuration,final_accuracy,compute_cost_gflops,comm_cost_gbytes
+naive_baseline,0.7800,120.0,1.0
+selection_only,0.8600,92.0,0.8
+offload_only,0.7900,74.0,1.4
+combined_full,0.8900,58.0,1.1

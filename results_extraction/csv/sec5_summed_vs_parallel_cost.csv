@@ -1,0 +1,5 @@
+modality,summed_compute_seconds,parallel_wallclock_seconds
+image,185.0,8.5
+text,135.0,6.8
+audio,310.0,12.2
+video,1280.0,48.5

@@ -1,0 +1,5 @@
+dataset,random_final_accuracy,agentic_final_accuracy,accuracy_gain
+cifar10,0.8130,0.8250,0.0120
+agnews,0.8950,0.9080,0.0130
+speech_commands,0.9120,0.9250,0.0130
+ucf101,0.5967,0.6120,0.0153

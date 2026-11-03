@@ -1,0 +1,40 @@
+{
+  "project": "Multi-Modal Federated Learning with Agentic Offloading",
+  "phases_completed": [],
+  "modalities": {
+    "image": {
+      "modality": "image",
+      "fl_final_accuracy": 1.0,
+      "fl_final_loss": 0.0,
+      "random_final_acc": 1.0,
+      "agentic_final_acc": 1.0
+    },
+    "text": {
+      "modality": "text",
+      "fl_final_accuracy": 0.3075,
+      "fl_final_loss": 1.364353,
+      "random_final_acc": 0.2875,
+      "agentic_final_acc": 0.3025
+    },
+    "audio": {
+      "modality": "audio",
+      "fl_final_accuracy": 1.0,
+      "fl_final_loss": 5e-06,
+      "random_final_acc": 1.0,
+      "agentic_final_acc": 1.0
+    },
+    "video": {
+      "modality": "video",
+      "fl_final_accuracy": 0.823333,
+      "fl_final_loss": 0.478646,
+      "random_final_acc": 1.0,
+      "agentic_final_acc": 1.0
+    }
+  },
+  "offload_rates": {
+    "image": 3.6,
+    "text": 1.7,
+    "audio": 7.5,
+    "video": 43.7
+  }
+}

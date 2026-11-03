@@ -1,0 +1,13 @@
+modality,selection_method,total_compute_flops,total_comm_bytes
+image,random,1.02e+11,3700000000
+image,heuristic,9.80e+10,3600000000
+image,ollama_agent,7.50e+10,2900000000
+text,random,6.70e+10,3300000000
+text,heuristic,6.20e+10,3100000000
+text,ollama_agent,4.10e+10,2100000000
+audio,random,1.80e+11,3700000000
+audio,heuristic,1.50e+11,3600000000
+audio,ollama_agent,1.10e+11,3200000000
+video,random,8.40e+11,22000000000
+video,heuristic,7.10e+11,20000000000
+video,ollama_agent,4.80e+11,15000000000

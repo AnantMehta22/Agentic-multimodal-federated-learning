@@ -1,0 +1,3 @@
+model,mean_latency_s,median_latency_s,p95_latency_s,fallback_rate
+llama3,2.7443,2.7108,3.4967,0.0400
+phi3,1.4342,1.4202,1.8084,0.0800

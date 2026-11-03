@@ -1,0 +1,4 @@
+client_id,ground_truth_cause,verbatim_reasoning
+Client 4,stale,Stale model update. Device has not checked in for 6 rounds. Including it poses a risk of stale weight convergence.
+Client 12,malicious,Anomalous update update delta detected. Parameter updates display negative cosine similarity vs consensus update direction. High risk of data poisoning.
+Client 48,resource_constraint,Critical local power limit: Battery at 11%. Skipped to prevent device failure during active round execution.

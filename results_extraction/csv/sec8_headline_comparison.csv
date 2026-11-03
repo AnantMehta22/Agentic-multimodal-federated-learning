@@ -1,0 +1,4 @@
+selection_method,rounds_to_target_acc,final_accuracy,mean_decision_latency_s,fallback_rate
+random,18,0.8220,0.0000,0.0000
+heuristic,12,0.8560,0.0200,0.0000
+ollama_agent,9,0.8920,1.3800,0.0400

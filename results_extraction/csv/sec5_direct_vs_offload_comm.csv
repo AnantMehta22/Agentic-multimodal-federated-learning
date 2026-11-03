@@ -1,0 +1,5 @@
+modality,direct_comm_bytes,offload_comm_bytes
+image,2480000,2850000
+text,2210000,2300000
+audio,2480000,3150000
+video,640000,9500000
